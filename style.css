@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:"Gilroy";
+  box-sizing: border-box;
+}
+html,body{
+  height:100%;
+  width:100%;
+}
+.main{
+  height: 100%;
+  width: 100%;
+  background-image: url('./images/Background.png');
+  background-size:cover;
+  background-position: center;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.mainbox{
+  position: relative;
+  width: 55%;
+  height:70%;
+  /* background-color: blue; */
+  display: flex;
+  
+}
+.leftbox{
+    width:50%;
+    height:100%;
+    background-color: rgb(19, 19, 92);
+    background-image: url(./images/iPhone\ Mockup.png);
+    background-size: cover;
+    background-position: center;
+    /* position: absolute; */
+}
+.inleft{
+  position: relative;
+  margin-top: 30px;
+}
+.inleft h1{
+  position: relative;
+  color:white;
+  left:35%;
+  margin-top: 10px;
+}
+.inleft p{
+  position: relative;
+  color: rgb(141, 228, 228);
+  left:23%;
+}
+.rightbox{
+  width:50%;
+  height:100%;
+  /* background-color: brown; */
+}
+.rightone{
+  height:20%;
+  width:100%;
+  /* color:white; */
+  background-color:white;
+}
+.righttwo{
+  height:42%;
+  width:100%;
+  background-color:white;
+}
+
+.rightone h1{
+  position: relative;
+  color:black;
+  left:10%;
+  top:42%;
+}
+.input1{
+  position: relative;
+  left: 25px;
+  height:50%;
+  width:80%;
+  /* background-color: red; */
+  display: block;
+}
+.input1 label{
+  position: relative;
+  left:20px;
+  top:10px;
+  font-size: 18px;
+}
+.input1 input{
+  position: relative;
+  display: block;
+  padding:15px;
+  margin-top: 20px;
+  left:20px;
+  width:82%;
+  font-size: 15px;
+  border-radius: 5px;
+  border:2px solid rgb(224, 219, 219);
+}
+.input2{
+  height:50%;
+  height:100%;
+}
+.rightthree{
+  position: relative;
+  height:38%;
+  width:100%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 50% 50%;
+}
+.rightthree{
+    display: grid;
+    
+}
+.checkbox{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: white;
+  grid-row-start:1;
+  grid-row-end: 2;
+}
+.write{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  background-color: white;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.btn{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  background-color:white;
+  grid-row-start: 2;
+  grid-row-end:2;
+}
+.checkbox input{
+  margin:10px 44px;
+}
+.write h4{
+  font-size: large;
+  margin: 5px 2px;
+}
+.write ins{
+  color:rgb(47, 47, 204)
+}
+button{
+  padding:22px 60px;
+  background-color: rgb(29, 29, 179);
+  color:white;
+  margin: 12px 68px;
+  font-size: large;
+  border:none;
+  border-radius: 6px;
+}
